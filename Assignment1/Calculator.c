@@ -24,6 +24,9 @@ int main()
         case '/':
             printf("%lf", num1/num2);
             break;
+        case '%':
+            printf("lf", num1%num2);
+            break;
         default:
             printf("Unrecognisable symbol!\n");
             break;
